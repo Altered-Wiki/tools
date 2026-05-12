@@ -6,6 +6,7 @@ Utilities for maintaining [altered.wiki](https://altered.wiki).
 
 | Directory | Description |
 |---|---|
+| [`deploy/`](deploy/) | Webhook server that syncs content repo files to a MediaWiki instance on push |
 | [`geojson-to-lua/`](geojson-to-lua/) | Converts Natural Earth country polygons to a MediaWiki Lua data module |
 
 ## License
