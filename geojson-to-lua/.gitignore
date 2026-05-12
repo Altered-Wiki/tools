@@ -1,0 +1,5 @@
+# Downloaded GeoJSON source data (large, fetch with curl — see tools/geojson-to-lua/README.md)
+*.geojson
+
+# Generated Lua data module
+module-country-geojson.lua
