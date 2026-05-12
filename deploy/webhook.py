@@ -201,7 +201,7 @@ def main():
     if len(sys.argv) > 1 and sys.argv[1] == "sync-all":
         repo_path = require_env("REPO_PATH")
         print("Syncing all mapped files…")
-        sync_files(list(PAGE_MAP.keys()), repo_path)
+        sync_files(list(load_page_map(repo_path).keys()), repo_path)
         return
 
     port = int(os.environ.get("WEBHOOK_PORT", 9000))
