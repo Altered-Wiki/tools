@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-User=www-data
+User=http
 WorkingDirectory=/opt/altered-wiki/tools/deploy
 ExecStart=/usr/bin/python3 /opt/altered-wiki/tools/deploy/webhook.py
 EnvironmentFile=/etc/altered-wiki/deploy.env
